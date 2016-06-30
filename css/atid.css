@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-weight: 300;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-family: "Roboto", sans-serif;
+    color: #505050;
+	text-align: justify;
+	word-break: keep-all;
+}
+* {
+    transition: all 300ms ease-in-out;
+}
+.seccion {
+	min-height:520px;
+}
+.subseccion {
+	min-height:450px;
+}
+.navbar {
+	min-height:80px;
+	margin-bottom:0px;
+	z-index:1;
+	border-radius:0px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1em;
+}
+.navbar-default .navbar-nav > li > a {
+	color:#3A3A3A;
+	padding: 30px 15px;
+}
+.navbar-brand {
+	height:80px;
+	padding:0 20px;
+}
+.navbar .container-fluid {
+	max-width:1070px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.carousel-fade .carousel-control {
+    background-image: none;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+h2 {
+	font-weight: 300;
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+	text-align:center;
+}
+h1 {
+    font-size: 29px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 1.103;
+    text-align: center;
+    font-weight: 500;
+	padding-bottom:35px;
+	padding-top:35px;
+}
+.responsive_image {
+	width:100%;
+	height:auto;
+}
+.icono {
+	width: 70px;
+	margin:0 auto;
+	clear:both;
+	padding-top:70px;
+}
+.actividades {
+	background-image:url(http://placehold.it/1920x1080/a39184/fff);
+	background:url(http://placehold.it/1920x1080/a39184/fff);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	color:#FFFFFF;
+	padding: 0 0 70px 0;
+}
+.actividades .seccion h1 {
+	color:#009ddc;
+}
+.preguntas {
+	font-size:1.1em;
+	line-height:1.3em;
+}
+.queremos {
+	background-image:url(http://placehold.it/1920x450/4d6487/3a4c66);
+	background:url(http://placehold.it/1920x450/4d6487/3a4c66);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	color:#FFFFFF;
+	padding: 70px 0;
+	font-size: 1.3em;
+    line-height: 1.5em;
+}
+.documentos {
+	font-size: 1.3em;
+    line-height: 1.5em;
+	padding-bottom: 35px;
+}
+.fondo_movamonos {
+	background-image:url(http://placehold.it/960x540/7f8887/fff);
+	background:url(http://placehold.it/960x540/7f8887/fff);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.fondo_negro {
+	background-color: rgba(0, 0, 0, 0.64);
+}
+.fondo_blanco {
+	background-color: rgba(255, 255, 255, 0.64);
+}
+.fondo_celeste {
+	background-color: #009ddc;
+	color:#fff;
+}
+footer {
+	padding: 35px 0;
+}
