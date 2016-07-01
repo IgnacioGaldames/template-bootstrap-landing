@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+/* Version: 1.2 */
 body {
 	font-weight: 300;
     font-size: 14px;
     line-height: 1.4em;
     font-family: "Roboto", sans-serif;
     color: #505050;
-	text-align: justify;
 	word-break: keep-all;
 }
 * {
@@ -70,10 +70,6 @@ body {
 .navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
-
-
-
-
 .carousel-fade .carousel-control {
     background-image: none;
 }
@@ -96,6 +92,12 @@ h1 {
 	padding-bottom:35px;
 	padding-top:35px;
 }
+header h1 {
+	font-weight: 700;
+    font-size: 3.5em;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
 .responsive_image {
 	width:100%;
 	height:auto;
@@ -107,8 +109,8 @@ h1 {
 	padding-top:70px;
 }
 .actividades {
-	background-image:url(http://placehold.it/1920x1080/72757d/fff);
-	background:url(http://placehold.it/1920x1080/72757d/fff);
+	background-image:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
+	background:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -130,13 +132,9 @@ h1 {
     margin-bottom: 15px;
 	margin-top: 35px;
 }
-.preguntas {
-	font-size:1.1em;
-	line-height:1.3em;
-}
 .queremos {
-	background-image:url(http://placehold.it/1920x450/4d6487/3a4c66);
-	background:url(http://placehold.it/1920x450/4d6487/3a4c66);
+	background-image:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
+	background:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -145,19 +143,47 @@ h1 {
 	font-size: 1.3em;
     line-height: 1.5em;
 }
-.documentos {
-	font-size: 1.3em;
-    line-height: 1.5em;
-	padding-bottom: 35px;
-}
 .fondo_movamonos {
-	background-image:url(http://placehold.it/960x540/7f8887/fff);
-	background:url(http://placehold.it/960x540/7f8887/fff);
+	background-image:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
+	background:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
 }
-
+.atid {
+	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo atid");
+	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo atid");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:contain;
+}
+.que-hemos-hecho {
+	background-image:url("http://placehold.it/1920x920/1535257/b3947f?text=fondo Qué Hemos Hecho");
+	background:url("http://placehold.it/1920x600/535257/b3947f?text=fondo Qué Hemos Hecho");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:contain;
+}
+.kinus {
+	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo kinus");
+	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo kinus");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:contain;
+}
+.vaad {
+	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo vaad hajinuj");
+	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo vaad hajinuj");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:contain;
+}
+.sin-fondo h1 {
+	color: #009ddc;
+}
+.sin-fondo header hr {
+	border-top: 1px solid  #009ddc;
+}
 .fondo_negro {
 	background-color: rgba(0, 0, 0, 0.64);
 	color:#FFFFFF;
@@ -173,8 +199,16 @@ h1 {
 	background-color: #009ddc;
 	color:#FFFFFF;
 }
+.texto-blanco {
+	color:#FFFFFF;
+}
 footer {
 	padding: 35px 0;
+	font-size: 1.15em;
+	font-weight: 400;
+}
+.footer {
+
 }
 /*  Input Reset */
 input[type="text"], input[type="email"], input[type="tel"], textarea{
@@ -252,4 +286,20 @@ input[type=submit]:hover, input[type=submit]:focus {
     background: transparent !important;
     font-weight: normal;
     color: #505050 !important;
+}
+@media (max-width:767px){
+	.atid, .que-hemos-hecho, .kinus, .vaad {
+		background-size: initial;
+	}
+	.contenido {
+	padding:2em 1em;
+	border-radius: 0.5em;
+}
+}
+
+@media (min-width:768px){
+	.contenido {
+	padding:3em 3em;
+	border-radius: 0.5em;
+}
 }
