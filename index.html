@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Atid - Instituto Hebreo</title>
+<title>Template Bootstrap Inicio</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 <!-- General-->
-<link href="css/atid.css?v=1.2" rel="stylesheet" type="text/css" media="screen">
+<link href="css/template.css?v=1.3" rel="stylesheet" type="text/css" media="screen">
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
@@ -34,30 +34,32 @@
 </head>
 <body class="inicio">
 <nav class="navbar navbar-default">
-  <div class="container-fluid"> 
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="index.html"><img src="img/logo_menu_superior.png" width="auto" height="80" alt=""/></a></div>
+      <a class="navbar-brand" href="index.html"><img src="http://placehold.it/80x80/6b15a1/fff?text=Logo" width="auto" height="80" alt=""/></a></div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="defaultNavbar1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown"><a href="atid.html" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">ATID<span class="caret"></span></a>
+        <li class="dropdown">
+          <a href="imagen_fondo.html" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">
+            Imagen Fondo<span class="caret"></span>
+          </a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="que-hemos-hecho.html">¿Qué Hemos Hecho?</a></li>
-            <li><a href="nuestra-propuesta.html">Nuestra Propuesta</a></li>
+            <li><a href="#">Sub Menú</a></li>
           </ul>
         </li>
-        <li><a href="kinus.html">Kinus</a></li>
-        <li><a href="vaad-hajinuj.html">Vaad Hajinuj</a></li>
-        <li><a href="#">Preguntas Frecuentes</a></li>
-        <li><a href="noticias.html">Noticias</a></li>
-        <li><a href="https://www.facebook.com/ATID-278534049160929/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      </ul>
+        <li><a href="sin_imagen.html">Sin Imagen</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+</ul>
     </div>
-    <!-- /.navbar-collapse --> 
+    <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container-fluid --> 
+  <!-- /.container-fluid -->
 </nav>
 <section class="container-fluid">
   <div class="row">
@@ -68,77 +70,78 @@
         <li data-target="#carousel1" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="item active"><img src="http://placehold.it/1920x920/412e2c/fff" alt="First slide image" class="center-block">
+        <div class="item active"><img src="http://placehold.it/1920x920/350354/fff?text=slider_1" alt="First slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>First slide Heading</h3>
-            <p>First slide Caption</p>
+            <h3>Lorem ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, dolorem.</p>
           </div>
         </div>
-        <div class="item"><img src="http://placehold.it/1920x920/6c5e55/fff" alt="Second slide image" class="center-block">
+        <div class="item"><img src="http://placehold.it/1920x920/AE7E28/fff?text=slider_2" alt="Second slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>Second slide Heading</h3>
-            <p>Second slide Caption</p>
+            <h3>Lorem ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, repellat!</p>
           </div>
         </div>
-        <div class="item"><img src="http://placehold.it/1920x920/7e7679/fff" alt="Third slide image" class="center-block">
+        <div class="item"><img src="http://placehold.it/1920x920/036E33/fff?text=slider_3" alt="Third slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>Third slide Heading</h3>
-            <p>Third slide Caption</p>
+            <h3>Lorem ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, odio.</p>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
   </div>
 </section>
-<section class="container-fluid movamonos">
+<section class="container-fluid seccion_2">
   <div class="row">
-    <div class="col-md-6 seccion fondo_movamonos"></div>
-    <div class="col-md-6 seccion">
+    <div class="col-md-6 seccion seccion_2_a"></div>
+    <div class="col-md-6 seccion seccion_2_b">
       <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-        <div class="text-center"> <img src="images/educacion.svg" alt="Educación" class="icono"/> </div>
-        <h2>Movámonos juntos para seguir creciendo</h2>
-        <p><strong>Nuestro sueño es “seguir transformando al IH en el orgullo de nuestra comunidad”, para ello, tenemos que abordar estos temas y tener un colegio que sea:</strong></p>
+        <div class="text-center"> <i class="fa fa-graduation-cap icono" aria-hidden="true"></i>
+ </div>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ducimus fugit expedita nihil obcaecati quasi sapiente tempora et qui vitae magnam blanditiis voluptatum corporis cumque.</strong></p>
         <ul>
           <li>
-            <p>De excelencia: Que sea referente nacional de excelencia académica</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, cumque.</p>
           </li>
           <li>
-            <p>Que tenga un proyecto judaico sólido, moderno, inclusivo y plural</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nobis!</p>
           </li>
           <li>
-            <p>Diverso: Donde aseguremos que todos puedan estudiar, puedan pagar o no, lo que cada día es más difícil</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ipsam!</p>
           </li>
           <li>
-            <p>Lo más seguro posible</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, officiis!</p>
           </li>
           <li>
-            <p>Que sea cada vez más grande!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, suscipit!</p>
           </li>
         </ul>
       </div>
     </div>
   </div>
 </section>
-<section class="container-fluid actividades">
-  <h1>ACTIVIDADES ATID</h1>
+<section class="container-fluid seccion_3">
+  <h1>Lorem ipsum.</h1>
   <div class="col-md-8 col-md-offset-2">
     <div class="col-md-6 subseccion fondo_negro wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
       <div class="borde_evento"></div>
       <div class="evento">
         <h1>5 jul 2016</h1>
-        <h3>Reunión Semanal Vaad </h3>
-        <p>Los días Martes, a las 8:00 am puedes inscribirte para reunirte con el Vaad. </p>
+        <h3>Lorem ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, labore?</p>
       </div>
       <div class="borde_evento"></div>
       <div class="evento">
         <h1>5 jul 2016</h1>
-        <h3>Reunión Semanal Vaad </h3>
-        <p>Los días Martes, a las 8:00 am puedes inscribirte para reunirte con el Vaad. </p>
+        <h3>Lorem ipsum dolor. </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, numquam!</p>
       </div>
     </div>
     <div class="col-md-6 subseccion fondo_blanco64 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-      <h1>inscríbete aquí </h1>
-      <p>para reunirte con el Vaad los días Martes a las 8:00 am </p>
+      <h1>Lorem ipsum.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, dignissimos.</p>
       <form>
         <input type="text" required placeholder="Nombre" title="Nombre" autocomplete="on" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'">
         <input type="email" required placeholder="Email" title="Email" autocomplete="on" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
@@ -148,103 +151,108 @@
     </div>
   </div>
 </section>
-<section class="container-fluid preguntas fondo_celeste">
+<section class="container-fluid seccion_4 fondo_morado">
   <div class="row">
     <div class="col-md-6 subseccion fondo_blanco">
       <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-        <h1>PREGUNTAS FRECUENTES</h1>
-        <p>Aclaremos juntos todas nuestras inquietudes. Aquí encontrarás respuesta a las principales dudas sobre el proceso del Proyecto Atid. </p>
+        <h1>Lorem ipsum.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, velit, cum quia sint tempore non incidunt aliquam aut animi modi ipsa hic numquam autem repudiandae.</p>
         <div id="Accordion1">
-          <h3><a href="#">¿Qué significa ATID?</a></h3>
+          <h3><a href="#">¿Lorem?</a></h3>
           <div>
-            <p>Atid significa Futuro en Hebreo.</p>
-            <p>Con ese nombre, hace más de 25 años cuando se llevó a cabo el ambicioso proyecto de trasladar al Instituto Hebreo desde Macul a nuestras actuales instalaciones de Avenida Las Condes. </p>
-            <p>Hoy, ATID representa el nuevo proyecto que busca asegurar la continuidad de nuestro Instituto Hebreo. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eos, ut voluptate alias eligendi perferendis molestiae sit est aperiam aut iusto distinctio nemo culpa. Hic libero laboriosam aliquam fugiat laborum!</p>
+            <p>Autem, ullam alias expedita quae omnis eveniet in voluptatem dolorum repellat possimus quasi optio delectus nulla animi iusto. Omnis, autem est optio sit labore rem consequatur perferendis possimus expedita mollitia.</p>
+            <p>Omnis, obcaecati, maxime, perferendis culpa commodi iste accusantium non dolore assumenda blanditiis facere repellendus dolor animi nesciunt temporibus possimus quia officiis illum ipsum est. Pariatur, obcaecati modi aliquam natus corporis.</p>
+            <p>A, numquam rem culpa aspernatur doloribus corrupti voluptatibus suscipit possimus blanditiis autem repudiandae perspiciatis repellendus in facilis dolor ea porro itaque modi reiciendis consequatur temporibus mollitia amet quam minima vero?</p>
           </div>
-          <h3><a href="#"> ¿Qué es el Proyecto ATID?</a></h3>
+          <h3><a href="#"> ¿Ipsum?</a></h3>
           <div>
-            <p>El Proyecto ATID busca solucionar una serie de problemas y desafíos que enfrenta nuestro Instituto Hebreo; pretende fortalecer la calidad de nuestro Proyecto Educativo Inclusivo y asegurar la continuidad de nuestra Comunidad Educativa y de nuestra Institución en el tiempo.</p>
-            <p>Lo anterior requiere importantes recursos, por lo tanto se pretende lograr este objetivo a través de la constitución de un Fondo o Endowment que permita destinar dichos recursos, tanto a apoyar la labor que realiza la Fundación Fobeju, como a invertir en calidad educativa para nuestros hijos y las futuras generaciones.</p>
-            <p>Para lograr este ambicioso objetivo, el Proyecto ATID se constituye como un esfuerzo que consiste en la enajenación de nuestra actual sede en Las Condes, la compra de un terreno a un costo muchísimo más bajo, y la construcción de una nueva sede cuyo resultante sea el Fondo antes descrito. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eos, ut voluptate alias eligendi perferendis molestiae sit est aperiam aut iusto distinctio nemo culpa. Hic libero laboriosam aliquam fugiat laborum!</p>
+            <p>Autem, ullam alias expedita quae omnis eveniet in voluptatem dolorum repellat possimus quasi optio delectus nulla animi iusto. Omnis, autem est optio sit labore rem consequatur perferendis possimus expedita mollitia.</p>
+            <p>Omnis, obcaecati, maxime, perferendis culpa commodi iste accusantium non dolore assumenda blanditiis facere repellendus dolor animi nesciunt temporibus possimus quia officiis illum ipsum est. Pariatur, obcaecati modi aliquam natus corporis.</p>
+            <p>A, numquam rem culpa aspernatur doloribus corrupti voluptatibus suscipit possimus blanditiis autem repudiandae perspiciatis repellendus in facilis dolor ea porro itaque modi reiciendis consequatur temporibus mollitia amet quam minima vero?</p>
           </div>
-          <h3><a href="#">¿Por qué ahora?</a></h3>
+          <h3><a href="#">¿Dolor?</a></h3>
           <div>
-            <p>Hoy, en 2016, nos encontramos muy satisfechos con los logros de nuestro colegio y al mismo tiempo surgen nuevos grandes desafíos que nos llevan a pensar en la siguiente etapa. El desafío ahora es mucho más grande:</p>
-            <ul>
-              <li> Queremos asegurar la posibilidad de que nuestros talmidim en la medida que lo requieran, puedan seguir accediendo a las becas para poder ser parte del IH, lo que se hace cada vez más difícil</li>
-              .
-              <li>Necesitamos responder a la demanda de una mayor excelencia académica (queremos ser referentes nacionales) y al mismo tiempo hacernos cargo seriamente de la diversidad de nuestra comunidad de alumnos, alcanzando el máximo potencial en cada alumno, elemento que nos distingue y enorgullece.</li>
-              <li>Queremos fortalecer aún más el proyecto judaico, que es la esencia de lo que nos define y diferencia de cualquier otro colegio en Chile.</li>
-            </ul>
-            <p>Se suman ahora dos nuevos elementos a nuestro desafío:
-              Una nueva situación relativa a la seguridad del lugar en que está nuestro colegio.</p>
-            <ul>
-              <li>La imposibilidad de seguir creciendo en Gan, que es la fuente de crecimiento del colegio hacia el futuro.</li>
-            </ul>
-            <p>Nuestro sueño es “seguir transformando al IH en el orgullo de nuestra comunidad”, para ello, tenemos que abordar estos temas y tener un colegio que sea: </p>
-            <ul>
-              <li>De excelencia: Que sea referente de excelencia académica para los que quieren el mejor programa académico y también, para los que requieren algún tipo de apoyo, la mejor UAP (Unidad de Apoyo Pedagógico).</li>
-              <li>Que tenga un proyecto judaico sólido, moderno, inclusivo y plural.</li>
-              <li>Diverso: Donde aseguremos que todos puedan estudiar,  puedan pagar o no, lo que cada día es más difícil.</li>
-              <li>Con altos estándares de seguridad.</li>
-              <li>Que no tenga limitaciones de espacio y crecimiento y que se pueda ir adaptando a los cambios en diferentes aspectos. </li>
-            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eos, ut voluptate alias eligendi perferendis molestiae sit est aperiam aut iusto distinctio nemo culpa. Hic libero laboriosam aliquam fugiat laborum!</p>
+            <p>Autem, ullam alias expedita quae omnis eveniet in voluptatem dolorum repellat possimus quasi optio delectus nulla animi iusto. Omnis, autem est optio sit labore rem consequatur perferendis possimus expedita mollitia.</p>
+            <p>Omnis, obcaecati, maxime, perferendis culpa commodi iste accusantium non dolore assumenda blanditiis facere repellendus dolor animi nesciunt temporibus possimus quia officiis illum ipsum est. Pariatur, obcaecati modi aliquam natus corporis.</p>
+            <p>A, numquam rem culpa aspernatur doloribus corrupti voluptatibus suscipit possimus blanditiis autem repudiandae perspiciatis repellendus in facilis dolor ea porro itaque modi reiciendis consequatur temporibus mollitia amet quam minima vero?</p>
           </div>
-          <h3><a href="#">¿Quiénes deciden?</a></h3>
+          <h3><a href="#">¿Sit?</a></h3>
           <div>
-            <p>El Comité Electoral define, basado en los Estatutos del Vaad Hajinuj, cómo se reparten los votos de los socios institucionales  (Comunidades), y cómo se asignan los votos de los socios individuales (apoderados).</p>
-            <p>El 50% de los votos están asignados a los Socios Individuales y el otro 50% a los Socios Institucionales.</p>
-            <p>Los Socios Individuales son todos los apoderados del Instituto Hebreo.</p>
-            <p>El voto de los Socios Institucionales se divide en dos: un 25% corresponde a las Instituciones Comunitarias que han aportado económicamente a nuestra Institución, y un 25% corresponde a aquellas Instituciones Comunitarias que han aportado culturalmente a nuestra Institución.</p>
-            <p>El mandato sólo es aprobado si un 67% del universo electoral total vota a favor de la propuesta del Vaad Hajinuj.</p>
-            <p>Esta información está disponible en los Estatutos del Vaad Hajinuj.</p>
-          </div>
-          <h3><a href="#">¿Cuándo será la Asamblea (Kinus)?</a></h3>
-          <div>
-            <p>El Kinus será el día Domingo 27 de Noviembre de 2016 a las 11:00 AM. en el Instituto Hebreo. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eos, ut voluptate alias eligendi perferendis molestiae sit est aperiam aut iusto distinctio nemo culpa. Hic libero laboriosam aliquam fugiat laborum!</p>
+            <p>Autem, ullam alias expedita quae omnis eveniet in voluptatem dolorum repellat possimus quasi optio delectus nulla animi iusto. Omnis, autem est optio sit labore rem consequatur perferendis possimus expedita mollitia.</p>
+            <p>Omnis, obcaecati, maxime, perferendis culpa commodi iste accusantium non dolore assumenda blanditiis facere repellendus dolor animi nesciunt temporibus possimus quia officiis illum ipsum est. Pariatur, obcaecati modi aliquam natus corporis.</p>
+            <p>A, numquam rem culpa aspernatur doloribus corrupti voluptatibus suscipit possimus blanditiis autem repudiandae perspiciatis repellendus in facilis dolor ea porro itaque modi reiciendis consequatur temporibus mollitia amet quam minima vero?</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-6 subseccion fondo_celeste">
+    <div class="col-md-6 subseccion">
       <div class="col-md-8 col-md-offset-2 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-        <div class="text-center"> <img src="images/preguntas.svg" alt="Preguntas" class="icono"/> </div>
-        <h2>¿Tienes más preguntas?</h2>
-        <p>Haznos llegar tus preguntas, consultas o dudas acerca del Proyecto ATID aquí</p>
+        <div class="text-center"><i class="fa fa-question-circle icono" aria-hidden="true"></i>
+</div>
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde</p>
       </div>
     </div>
   </div>
 </section>
-<section class="container-fluid queremos">
+<section class="container-fluid seccion_5">
   <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <h4>Queremos un diálogo abierto con todos los actores de la Comunidad, para transformar este sueño en un proyecto de todos donde tengamos espacio para informarnos, expresar nuestra opinión y llegar a un Kinus con un proyecto que exprese a la Comunidad de la mejor manera posible. </h4>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ratione voluptatem voluptatum praesentium quidem unde aut quo obcaecati nostrum necessitatibus. Tenetur, consequatur reprehenderit est aperiam iste assumenda sapiente suscipit quibusdam.</h4>
   </div>
 </section>
-<section class="container-fluid documentos">
-  <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+<section class="container-fluid seccion_6">
+  <div class="col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <h1>documentos </h1>
-    <h4>Oops!, al parecer aún no hay nada para ver aquí. </h4>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+      <i class="fa fa-file-pdf-o icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="3s">
+      <i class="fa fa-file-text icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="4s">
+      <i class="fa fa-file-pdf-o icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="5s">
+      <i class="fa fa-file-text icono" aria-hidden="true"></i>
+    </div>
+    <hr />
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="6s">
+    <i class="fa fa-file-text icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="7s">
+      <i class="fa fa-file-pdf-o icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="8s">
+      <i class="fa fa-file-text icono" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="9s">
+      <i class="fa fa-file-pdf-o icono" aria-hidden="true"></i>
+    </div>
   </div>
 </section>
-<footer class="fondo_celeste">
+<footer class="footer">
   <div class="container-fluid text-center">
     <p>© 2016 - Derechos reservados </p>
   </div>
 </footer>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
 <script type="text/javascript">
 $(function() {
 	$( "#Accordion1" ).accordion({
   icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" },
   heightStyle: "content",
   collapsible: true,
-  active: false 
-	}); 
+  active: false
+	});
 });
-</script> 
-<script src="js/wow.min.js"></script> 
+</script>
+<script src="js/wow.min.js"></script>
 <script>
 	new WOW().init();
 </script>

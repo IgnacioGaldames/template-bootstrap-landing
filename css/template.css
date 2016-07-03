@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/* Version: 1.2 */
+/* Version: 1.3 */
 body {
 	font-weight: 300;
     font-size: 14px;
@@ -11,6 +11,12 @@ body {
 }
 * {
     transition: all 300ms ease-in-out;
+}
+a {
+	color: #6B15A1;
+}
+a:hover, a:focus {
+	color: #B966ED;
 }
 .seccion {
 	min-height:520px;
@@ -49,7 +55,7 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #009ddc
+  color: #6B15A1
 }
 .navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -58,14 +64,14 @@ body {
   left:0;
   width: 0;
   height: 1px;
-  background-color: #009ddc;
+  background-color: #6B15A1;
   content: "";
   transition:all 300ms ease-in-out;;
       -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
     animation-direction: alternate;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #009ddc;
+  color: #6B15A1;
 }
 .navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
@@ -107,22 +113,23 @@ header h1 {
 	margin:0 auto;
 	clear:both;
 	padding-top:70px;
+	font-size: 3em;
 }
-.actividades {
-	background-image:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
-	background:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
+.seccion_3 {
+	background-image:url("http://placehold.it/1920x1080/72757d/fff?text=seccion_3");
+	background:url("http://placehold.it/1920x1080/72757d/fff?text=seccion_3");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
 	padding: 0 0 70px 0;
 }
-.actividades h1 {
+.seccion_3 h1 {
 	color:#FFFFFF;
 }
-.actividades .subseccion h1 {
-	color:#009ddc;
+.seccion_3 .subseccion h1 {
+	color:#A50FB8;
 }
-.actividades .subseccion h1 {
+.seccion_3 .subseccion h1 {
 	text-align:left;
 	padding:0px;
 }
@@ -132,9 +139,9 @@ header h1 {
     margin-bottom: 15px;
 	margin-top: 35px;
 }
-.queremos {
-	background-image:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
-	background:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
+.seccion_5 {
+	background-image:url("http://placehold.it/1920x450/490FB8/000?text=seccion_5");
+	background:url("http://placehold.it/1920x450/490FB8/000?text=seccion_5");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -143,46 +150,28 @@ header h1 {
 	font-size: 1.3em;
     line-height: 1.5em;
 }
-.fondo_movamonos {
-	background-image:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
-	background:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
+.seccion_2_a {
+	background-image:url("http://placehold.it/960x540/490E6E/fff?text=seccion_2_a");
+	background:url("http://placehold.it/960x540/490E6E/fff?text=seccion_2_a");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
 }
-.atid {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo atid");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo atid");
+.seccion_6 {
+	padding-bottom: 70px;
+}
+.imagen_fondo {
+	background-image:url("http://placehold.it/1920x920/350354/747669?text=imagen_fondo");
+	background:url("http://placehold.it/1920x600/350354/747669?text=imagen_fondo");
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size:contain;
 }
-.que-hemos-hecho {
-	background-image:url("http://placehold.it/1920x920/1535257/b3947f?text=fondo Qué Hemos Hecho");
-	background:url("http://placehold.it/1920x600/535257/b3947f?text=fondo Qué Hemos Hecho");
-	background-repeat:no-repeat;
-	background-position:top center;
-	background-size:contain;
+.sin_fondo h1 {
+	color: #6B15A1;
 }
-.kinus {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo kinus");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo kinus");
-	background-repeat:no-repeat;
-	background-position:top center;
-	background-size:contain;
-}
-.vaad {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo vaad hajinuj");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo vaad hajinuj");
-	background-repeat:no-repeat;
-	background-position:top center;
-	background-size:contain;
-}
-.sin-fondo h1 {
-	color: #009ddc;
-}
-.sin-fondo header hr {
-	border-top: 1px solid  #009ddc;
+.sin_fondo header hr {
+	border-top: 1px solid  #6B15A1;
 }
 .fondo_negro {
 	background-color: rgba(0, 0, 0, 0.64);
@@ -195,9 +184,9 @@ header h1 {
 	background-color: #FFFFFF;
 	color:#505050;
 }
-.fondo_celeste {
-	background-color: #009ddc;
-	color:#FFFFFF;
+.fondo_morado {
+	background-color: #6B15A1;
+	color: #FFFFFF;
 }
 .texto-blanco {
 	color:#FFFFFF;
@@ -208,7 +197,8 @@ footer {
 	font-weight: 400;
 }
 .footer {
-
+	background-color: #6B15A1;
+	color:#FFFFFF;
 }
 /*  Input Reset */
 input[type="text"], input[type="email"], input[type="tel"], textarea{
