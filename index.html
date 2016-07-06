@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,6 +31,16 @@
     <![endif]-->
 <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80359842-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body class="inicio">
 <nav class="navbar navbar-default">
@@ -44,15 +54,15 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a href="atid.html" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">ATID<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="que-hemos-hecho.html">¿Qué Hemos Hecho?</a></li>
+            <li><a href="en-que-hemos-avanzado.html">¿En qué hemos avanzado?</a></li>
             <li><a href="nuestra-propuesta.html">Nuestra Propuesta</a></li>
           </ul>
         </li>
         <li><a href="kinus.html">Kinus</a></li>
         <li><a href="vaad-hajinuj.html">Vaad Hajinuj</a></li>
-        <li><a href="#">Preguntas Frecuentes</a></li>
+        <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
         <li><a href="noticias.html">Noticias</a></li>
-        <li><a href="https://www.facebook.com/ATID-278534049160929/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/ATID-278534049160929/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -60,60 +70,63 @@
   <!-- /.container-fluid --> 
 </nav>
 <section class="container-fluid">
-  <div class="row">
+  <div class="row"><img src="images/logo_movamonos_juntos2.png" width="487" height="199" alt="" class="logo_movamonos"/>
     <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel1" data-slide-to="0" class="active"></li>
         <li data-target="#carousel1" data-slide-to="1"></li>
         <li data-target="#carousel1" data-slide-to="2"></li>
+        <li data-target="#carousel1" data-slide-to="3"></li>
+        <li data-target="#carousel1" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="item active"><img src="http://placehold.it/1920x920/412e2c/fff" alt="First slide image" class="center-block">
+        <div class="item active"><img src="images/slide1.jpg" alt="First slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>First slide Heading</h3>
-            <p>First slide Caption</p>
+            <h3>POR LA DIVERSIDAD.</h3>
+            <h4>Estamos orgullosos de tener alumnos con diferentes características sociales, económicas, culturales y personales, que estudian juntos y se integran en una misma comunidad educativa.</h4>
           </div>
         </div>
-        <div class="item"><img src="http://placehold.it/1920x920/6c5e55/fff" alt="Second slide image" class="center-block">
+        <div class="item"><img src="images/slide2.jpg" alt="Second slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>Second slide Heading</h3>
-            <p>Second slide Caption</p>
+            <h3>POR EL PROYECTO JUDAICO.</h3>
+            <h4>Queremos alumnos activos en la construcción del conocimiento, comprometidos con una identidad judía sólida, moderna, inclusiva y plural, que refleja las diversas corrientes de pensamiento de la comunidad</h4>
           </div>
         </div>
-        <div class="item"><img src="http://placehold.it/1920x920/7e7679/fff" alt="Third slide image" class="center-block">
+        <div class="item"><img src="images/slide3.jpg" alt="Third slide image" class="center-block">
           <div class="carousel-caption">
-            <h3>Third slide Heading</h3>
-            <p>Third slide Caption</p>
+            <h3>PARA APOYAR LA LABOR DE FOBEJU.</h3>
+            <h4>Potenciemos la diversidad de nuestros estudiantes, y aseguremos que cada familia que quiera estudiar en nuestro Instituto Hebreo lo pueda hacer, independiente de su condición económica.</h4>
+          </div>
+        </div>
+        <div class="item"><img src="images/slide4.jpg" alt="Third slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>POR UNA MAYOR EXCELENCIA ACADÉMICA.</h3>
+            <h4>Para dar la oportunidad a cada alumno de desarrollar al máximo su potencial, respetando intereses y aptitudes diversas.</h4>
+          </div>
+        </div>
+        <div class="item"><img src="images/slider5.jpg" alt="Third slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>PARA SEGUIR CRECIENDO.</h3>
+            <h4>Sigamos transformando al Hebreo en el Orgullo de nuestra Comunidad, en un proceso continuo, apoyando la continuidad de un sistema educacional de calidad y excelencia que permita seguir formando, académica y valóricamente, a generaciones de personas íntegras, comprometidas con su comunidad y con la sociedad.</h4>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+      <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"> </span><span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
   </div>
 </section>
 <section class="container-fluid movamonos">
   <div class="row">
-    <div class="col-md-6 seccion fondo_movamonos"></div>
+    <div class="col-md-6 seccion fondo_movamonos hidden-xs"></div>
     <div class="col-md-6 seccion">
       <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
         <div class="text-center"> <img src="images/educacion.svg" alt="Educación" class="icono"/> </div>
         <h2>Movámonos juntos para seguir creciendo</h2>
-        <p><strong>Nuestro sueño es “seguir transformando al IH en el orgullo de nuestra comunidad”, para ello, tenemos que abordar estos temas y tener un colegio que sea:</strong></p>
         <ul>
-          <li>
-            <p>De excelencia: Que sea referente nacional de excelencia académica</p>
-          </li>
-          <li>
-            <p>Que tenga un proyecto judaico sólido, moderno, inclusivo y plural</p>
-          </li>
-          <li>
-            <p>Diverso: Donde aseguremos que todos puedan estudiar, puedan pagar o no, lo que cada día es más difícil</p>
-          </li>
-          <li>
-            <p>Lo más seguro posible</p>
-          </li>
-          <li>
-            <p>Que sea cada vez más grande!</p>
-          </li>
+          <li>Necesitamos responder al mismo tiempo a la demanda de una mayor excelencia académica (queremos ser referentes nacionales) y a la demanda trabajar seriamente con la diversidad (académica y económica) de nuestra comunidad de alumnos, elemento que nos distingue y enorgullece.          </li>
+          <li>Queremos fortalecer aún más el proyecto judaico sólido, moderno, inclusivo y plural, que es la esencia de lo que nos define como colegio.</li>
+          <li>Queremos asegurar que todos quienes lo requieran, puedan seguir accediendo a las becas para poder ser parte del Hebreo, cosa que se hace cada vez más difícil.</li>
+          <li>Queremos resolver los problemas relativos a las vías de acceso, circulación, estacionamientos y seguridad del lugar en que está nuestro colegio.</li>
+          <li>Queremos seguir creciendo, y poder asegurar que todos los niños que quieran estudiar en nuestro colegio lo puedan hacer.          </li>
         </ul>
       </div>
     </div>
@@ -125,25 +138,59 @@
     <div class="col-md-6 subseccion fondo_negro wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
       <div class="borde_evento"></div>
       <div class="evento">
-        <h1>5 jul 2016</h1>
+        <h1>9 ago 2016</h1>
         <h3>Reunión Semanal Vaad </h3>
-        <p>Los días Martes, a las 8:00 am puedes inscribirte para reunirte con el Vaad. </p>
+        <p>Reunión informativa con el Vaad Hajinuj </p>
       </div>
       <div class="borde_evento"></div>
       <div class="evento">
-        <h1>5 jul 2016</h1>
-        <h3>Reunión Semanal Vaad </h3>
-        <p>Los días Martes, a las 8:00 am puedes inscribirte para reunirte con el Vaad. </p>
+        <h1>3 ago 2016</h1>
+        <h3>Presentación sobre tema Inmobiliario (terrenos) </h3>
+        <p>Presentación sobre tema Inmobiliario (terrenos) </p>
+      </div>
+      <div class="col-md-6 col-md-offset-3 boton text-center">
+        <p><a href="actividades.html">Más Actividades</a></p>
       </div>
     </div>
     <div class="col-md-6 subseccion fondo_blanco64 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
       <h1>inscríbete aquí </h1>
-      <p>para reunirte con el Vaad los días Martes a las 8:00 am </p>
+      <p>Puedes inscribirte para reunirte con el Vaad Hajinuj a conocer el proyecto y plantear tus dudas. Las reuniones son los días Martes, a las 8:00 am, en el Colegio. </p>
+      <p>Además se realizarán reuniones temáticas donde se presentarán aspectos específicos del proyecto con los especialistas de cada área.</p>
       <form>
         <input type="text" required placeholder="Nombre" title="Nombre" autocomplete="on" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'">
         <input type="email" required placeholder="Email" title="Email" autocomplete="on" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
         <input type="tel" required placeholder="Teléfono" title="Teléfono" autocomplete="on" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Teléfono'">
-        <input type="submit" class="col-md-6col-md-offset-6">
+       
+        <p>Si quieres asistir a reunión informativa semanal,</p>
+          
+
+          <select>
+            <option>Selecciona fecha:</option>
+            <option>02 agosto</option>
+            <option>09 agosto</option>
+            <option>16 agosto</option>
+            <option>23 agosto</option>
+            <option>30 agosto</option>
+            <option>06 septiembre</option>
+            <option>13 septiembre</option>
+            <option>20 septiembre</option>
+            <option>27 septiembre</option>
+            <option>08 noviembre </option>
+            <option>15 noviembre </option>
+            <option>22 noviembre </option>
+          </select>
+                    <p>Si quieres asistir a reuniones temáticas,</p>
+          <select>
+            <option>Selecciona tema y fecha:</option>
+            <option>Arquitectura: 28/07/2016 - 19:00 hrs.</option>
+            <option>Estructuración de Endowment: 02/08/2016 - 19:00 hrs.</option>
+            <option>Búsqueda de terrenos: 03/08/2016 - 19:00 hrs.</option>
+            <option>Análisis de factibilidad económica: Fecha por definir</option>
+            <option>Impacto Social del Proyecto: Fecha por definir</option>
+            <option>Gastos de operación de nueva instalación: Fecha por definir</option>
+          </select>
+        <button type="submit" class="col-md-6col-md-offset-6">Enviar</button>
+        
       </form>
     </div>
   </div>
@@ -153,57 +200,58 @@
     <div class="col-md-6 subseccion fondo_blanco">
       <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
         <h1>PREGUNTAS FRECUENTES</h1>
-        <p>Aclaremos juntos todas nuestras inquietudes. Aquí encontrarás respuesta a las principales dudas sobre el proceso del Proyecto Atid. </p>
         <div id="Accordion1">
           <h3><a href="#">¿Qué significa ATID?</a></h3>
           <div>
             <p>Atid significa Futuro en Hebreo.</p>
-            <p>Con ese nombre, hace más de 25 años cuando se llevó a cabo el ambicioso proyecto de trasladar al Instituto Hebreo desde Macul a nuestras actuales instalaciones de Avenida Las Condes. </p>
+            <p>Con ese nombre, hace más de 25 años cuando se llevó a cabo el ambicioso proyecto de trasladar al Instituto Hebreo desde Macul a nuestras actuales instalaciones de Avenida Las Condes.</p>
             <p>Hoy, ATID representa el nuevo proyecto que busca asegurar la continuidad de nuestro Instituto Hebreo. </p>
           </div>
           <h3><a href="#"> ¿Qué es el Proyecto ATID?</a></h3>
           <div>
             <p>El Proyecto ATID busca solucionar una serie de problemas y desafíos que enfrenta nuestro Instituto Hebreo; pretende fortalecer la calidad de nuestro Proyecto Educativo Inclusivo y asegurar la continuidad de nuestra Comunidad Educativa y de nuestra Institución en el tiempo.</p>
             <p>Lo anterior requiere importantes recursos, por lo tanto se pretende lograr este objetivo a través de la constitución de un Fondo o Endowment que permita destinar dichos recursos, tanto a apoyar la labor que realiza la Fundación Fobeju, como a invertir en calidad educativa para nuestros hijos y las futuras generaciones.</p>
-            <p>Para lograr este ambicioso objetivo, el Proyecto ATID se constituye como un esfuerzo que consiste en la enajenación de nuestra actual sede en Las Condes, la compra de un terreno a un costo muchísimo más bajo, y la construcción de una nueva sede cuyo resultante sea el Fondo antes descrito. </p>
+            <p>Para lograr este ambicioso objetivo, el Proyecto ATID se constituye como un esfuerzo que consiste en la enajenación de nuestra actual sede en Las Condes, la compra de un terreno a un costo muchísimo más bajo, y la construcción de una nueva sede cuyo resultante sea el Fondo antes descrito.</p>
           </div>
           <h3><a href="#">¿Por qué ahora?</a></h3>
           <div>
             <p>Hoy, en 2016, nos encontramos muy satisfechos con los logros de nuestro colegio y al mismo tiempo surgen nuevos grandes desafíos que nos llevan a pensar en la siguiente etapa. El desafío ahora es mucho más grande:</p>
             <ul>
-              <li> Queremos asegurar la posibilidad de que nuestros talmidim en la medida que lo requieran, puedan seguir accediendo a las becas para poder ser parte del IH, lo que se hace cada vez más difícil</li>
-              .
-              <li>Necesitamos responder a la demanda de una mayor excelencia académica (queremos ser referentes nacionales) y al mismo tiempo hacernos cargo seriamente de la diversidad de nuestra comunidad de alumnos, alcanzando el máximo potencial en cada alumno, elemento que nos distingue y enorgullece.</li>
-              <li>Queremos fortalecer aún más el proyecto judaico, que es la esencia de lo que nos define y diferencia de cualquier otro colegio en Chile.</li>
+              <li> Queremos asegurar la posibilidad de que nuestros talmidim en la medida que lo requieran, puedan seguir accediendo a las becas para poder ser parte del IH, lo que se hace cada vez más difícil.</li>
+              <li> Necesitamos responder a la demanda de una mayor excelencia académica (queremos ser referentes nacionales) y al mismo tiempo hacernos cargo seriamente de la diversidad de nuestra comunidad de alumnos, alcanzando el máximo potencial en cada alumno, elemento que nos distingue y enorgullece.</li>
+              <li> Queremos fortalecer aún más el proyecto judaico, que es la esencia de lo que nos define y diferencia de cualquier otro colegio en Chile.</li>
             </ul>
-            <p>Se suman ahora dos nuevos elementos a nuestro desafío:
-              Una nueva situación relativa a la seguridad del lugar en que está nuestro colegio.</p>
+            <p><strong>Se suman ahora dos nuevos elementos a nuestro desafío:</strong></p>
             <ul>
-              <li>La imposibilidad de seguir creciendo en Gan, que es la fuente de crecimiento del colegio hacia el futuro.</li>
+              <li>     Una nueva situación relativa a la seguridad del lugar en que está nuestro colegio.</li>
+              <li>     La imposibilidad de seguir creciendo en Gan, que es la fuente de crecimiento del colegio hacia el futuro.</li>
             </ul>
-            <p>Nuestro sueño es “seguir transformando al IH en el orgullo de nuestra comunidad”, para ello, tenemos que abordar estos temas y tener un colegio que sea: </p>
+            <p><strong>Nuestro sueño es &ldquo;seguir transformando al IH en el orgullo de nuestra comunidad&rdquo;, para ello, tenemos que abordar estos temas y tener un colegio que sea:</strong></p>
             <ul>
-              <li>De excelencia: Que sea referente de excelencia académica para los que quieren el mejor programa académico y también, para los que requieren algún tipo de apoyo, la mejor UAP (Unidad de Apoyo Pedagógico).</li>
-              <li>Que tenga un proyecto judaico sólido, moderno, inclusivo y plural.</li>
-              <li>Diverso: Donde aseguremos que todos puedan estudiar,  puedan pagar o no, lo que cada día es más difícil.</li>
-              <li>Con altos estándares de seguridad.</li>
-              <li>Que no tenga limitaciones de espacio y crecimiento y que se pueda ir adaptando a los cambios en diferentes aspectos. </li>
+              <li>     De excelencia: Que sea referente de excelencia académica para los que quieren el mejor programa académico y también, para los que requieren algún tipo de apoyo, la mejor UAP (Unidad de Apoyo Pedagógico).</li>
+              <li>     Que tenga un proyecto judaico sólido, moderno, inclusivo y plural.</li>
+              <li>     Diverso: Donde aseguremos que todos puedan estudiar,  puedan pagar o no, lo que cada día es más difícil.</li>
+              <li>     Con altos estándares de seguridad.</li>
+              <li>     Que no tenga limitaciones de espacio y crecimiento y que se pueda ir adaptando a los cambios en diferentes aspectos.</li>
             </ul>
           </div>
           <h3><a href="#">¿Quiénes deciden?</a></h3>
           <div>
-            <p>El Comité Electoral define, basado en los Estatutos del Vaad Hajinuj, cómo se reparten los votos de los socios institucionales  (Comunidades), y cómo se asignan los votos de los socios individuales (apoderados).</p>
+            <p>El Comité Electoral define, basado en los Estatutos del Vaad Hajinuj, cómo se reparten los votos de los socios institucionales  (Comunidades), y cómo se asignan los votos de los socios individuales (apoderados).</p>
             <p>El 50% de los votos están asignados a los Socios Individuales y el otro 50% a los Socios Institucionales.</p>
             <p>Los Socios Individuales son todos los apoderados del Instituto Hebreo.</p>
             <p>El voto de los Socios Institucionales se divide en dos: un 25% corresponde a las Instituciones Comunitarias que han aportado económicamente a nuestra Institución, y un 25% corresponde a aquellas Instituciones Comunitarias que han aportado culturalmente a nuestra Institución.</p>
             <p>El mandato sólo es aprobado si un 67% del universo electoral total vota a favor de la propuesta del Vaad Hajinuj.</p>
-            <p>Esta información está disponible en los Estatutos del Vaad Hajinuj.</p>
+            <p>Esta información está disponible en los <a href="http://www.proyectoatid.cl/wp-content/uploads/2016/06/estatuto_vaad_2012.pdf">Estatutos del Vaad Hajinuj.</a></p>
           </div>
           <h3><a href="#">¿Cuándo será la Asamblea (Kinus)?</a></h3>
           <div>
-            <p>El Kinus será el día Domingo 27 de Noviembre de 2016 a las 11:00 AM. en el Instituto Hebreo. </p>
+            <p>El Kinus será el día Domingo 27 de Noviembre de 2016 a las 11:00 AM. en el Instituto Hebreo.</p>
           </div>
         </div>
+      </div>
+      <div class="col-md-4 col-md-offset-4 boton text-center">
+        <p><a href="preguntas-frecuentes.html">Más Preguntas</a></p>
       </div>
     </div>
     <div class="col-md-6 subseccion fondo_celeste">
@@ -212,18 +260,105 @@
         <h2>¿Tienes más preguntas?</h2>
         <p>Haznos llegar tus preguntas, consultas o dudas acerca del Proyecto ATID aquí</p>
       </div>
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <button type="button" class="btn boton" data-toggle="modal" data-target="#myModal"> Envía tu pregunta </button>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+              <form>
+                <div class="col-md-12">
+                  <div class="col-md-12">
+                    <p>Nombre</p>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" required title="Nombre Preguntas" autocomplete="on" class="col-md-12">
+                  </div>
+                  <div class="col-md-12"></div>
+                  <div class="col-md-12">
+                    <p>Apellido</p>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" required title="Apellido Preguntas" autocomplete="on" class="col-md-12">
+                  </div>
+                  <div class="col-md-12">
+                    <p>Email</p>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="email" required title="Email Preguntas" autocomplete="on" class="col-md-12">
+                  </div>
+                  <div class="col-md-12">
+                    <p>¿Eres apoderado de Instituto Hebreo?</p>
+                  </div>
+                  <div class="col-md-12"> si
+                    <input type="radio" title="Si" value="si">
+                    no
+                    <input type="radio" title="No" value="no">
+                  </div>
+                  <div class="col-md-12" style="margin-top:15px;">
+                    <p>¿En qué ciclo estudia tu hijo(a) menor?</p>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" autocomplete="off" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = ''">
+                    <p>¿Eres ex-alumno de Instituto Hebreo?</p>
+                    si
+                    <input type="radio" title="Si" value="si">
+                    no
+                    <input type="radio" title="No" value="no">
+                  </div>
+                  <div class="col-md-12" style="margin-top:15px;">
+                    <p>¿Pertenence a alguna comunidad o institución?</p>
+                  </div>
+                  <div class="col-md-12"> si
+                    <input type="radio" title="Si" value="si">
+                    no
+                    <input type="radio" title="No" value="no">
+                  </div>
+                  <div class="col-md-12" style="margin-top:15px;">
+                    <p>¿A cuál comunidad o institución pertenece?</p>
+                    <input type="text" autocomplete="off" class="col-md-12" onfocus="this.placeholder = ''" onblur="this.placeholder = ''">
+                  </div>
+                  <div class="col-md-12">
+                    <p>Ingresa aquí tu pregunta</p>
+                  </div>
+                  <div class="col-md-12">
+                    <textarea></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-secondary" data-dismiss="modal">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<section class="container-fluid queremos">
+<section class="container-fluid queremos text-center">
   <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <h4>Queremos un diálogo abierto con todos los actores de la Comunidad, para transformar este sueño en un proyecto de todos donde tengamos espacio para informarnos, expresar nuestra opinión y llegar a un Kinus con un proyecto que exprese a la Comunidad de la mejor manera posible. </h4>
+    <h4>Proyectoatid.cl es un diálogo abierto con todos los actores de nuestra Comunidad, donde tengamos espacio para conocer, expresar nuestra opinión y llegar al Kinus plenamente informados. ATID es un proyecto que aspira a expresar un gran sueño comunitario, y queremos transformar este sueño en un proyecto de todos.</h4>
   </div>
 </section>
 <section class="container-fluid documentos">
   <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <h1>documentos </h1>
-    <h4>Oops!, al parecer aún no hay nada para ver aquí. </h4>
+    <h1><a href="documentos.html">documentos </a></h1>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"> <a href="documentos/Fecha-Kinus.pdf" target="_blank"><img src="images/documentos.svg" alt="" class="icono"/>
+      <p><strong>Comunicación del Vaad Hajinuj sobre fecha del Kinus</strong></p>
+      </a></div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s"> <a href="documentos/estatuto_vaad_2012.pdf"><img src="images/documentos.svg" alt="" class="icono"/>
+      <p><strong>Estatutos Vaad Hajinuj</strong></p>
+      </a></div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"> <a href="documentos/memoria_de_gestion_vaad_hajinuj_2012-2013.pdf" target="_blank"><img src="images/documentos.svg" alt="" class="icono"/>
+      <p><strong>Memoria de Gestión Vaad Hajinuj 2012 – 2013</strong></p>
+      </a> </div>
+    <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s"> <a href="documentos/pei 2012-2014.pdf" target="_blank"><img src="images/documentos.svg" alt="" class="icono"/>
+      <p><strong>Pei 2012 – 2014</strong></p>
+      </a> </div>
   </div>
 </section>
 <footer class="fondo_celeste">
@@ -247,6 +382,9 @@ $(function() {
 <script src="js/wow.min.js"></script> 
 <script>
 	new WOW().init();
+</script> 
+<script>
+$('#myModal').modal(options)
 </script>
 </body>
 </html>

@@ -13,11 +13,11 @@ body {
     transition: all 300ms ease-in-out;
 }
 .seccion {
-	min-height:520px;
+	min-height:540px;
 }
 .subseccion {
-	min-height:450px;
-	padding: 35px;
+	min-height:540px;
+	padding: 0 30px 20px 30px;
 }
 .navbar {
 	min-height:80px;
@@ -44,9 +44,6 @@ body {
     border-color: #e7e7e7;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
-
-
-
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #009ddc
@@ -109,8 +106,7 @@ header h1 {
 	padding-top:70px;
 }
 .actividades {
-	background-image:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
-	background:url("http://placehold.it/1920x1080/72757d/fff?text=fondo actividades");
+	background-image: url(../images/fondo-kinus.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -126,15 +122,47 @@ header h1 {
 	text-align:left;
 	padding:0px;
 }
+.documentos {
+	padding-bottom: 35px;
+}
+.documentos .icono {
+	padding-top: 0px;
+	margin-bottom:35px;
+}
+.documentos a {
+	color: #505050;
+}
+.actividades .boton a {
+	color: #FFFFFF;
+}
+.actividades .boton a:hover {
+	color: #009ddc;
+}
+.boton {
+    padding-top: 8px;
+    border-radius: 2px;
+    text-decoration: none !important;
+    background-color: rgba(230, 230, 230, 0.5);
+    color: #333333;
+    margin-top: 25px;
+}
+.boton:hover {
+    background-color: rgba(230, 230, 230, 1);
+}
+.boton p a:hover {
+    text-decoration:none;
+}
+.btn, .btn:hover, .btn:focus {
+	color: #009ddc;
+}
 .borde_evento {
     border-top: 1px solid #fff;
     width: 40px;
     margin-bottom: 15px;
-	margin-top: 35px;
+	margin-top: 20px;
 }
 .queremos {
-	background-image:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
-	background:url("http://placehold.it/1920x450/4d6487/3a4c66?text=fondo queremos");
+	background-image: url(../images/fondo_queremos.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -144,42 +172,39 @@ header h1 {
     line-height: 1.5em;
 }
 .fondo_movamonos {
-	background-image:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
-	background:url("http://placehold.it/960x540/7f8887/fff?text=fondo movamonos");
+	background-image: url(../images/fondo-movamonos.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
 }
 .atid {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo atid");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo atid");
+	background-image:url(../images/fondo-atid.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size:contain;
 }
 .que-hemos-hecho {
-	background-image:url("http://placehold.it/1920x920/1535257/b3947f?text=fondo Qué Hemos Hecho");
-	background:url("http://placehold.it/1920x600/535257/b3947f?text=fondo Qué Hemos Hecho");
+	background-image: url(../images/fondo-que-hemos-hecho.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size:contain;
 }
 .kinus {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo kinus");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo kinus");
+	background-image:url(../images/fondo-kinus.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size:contain;
 }
 .vaad {
-	background-image:url("http://placehold.it/1920x920/1d3856/747669?text=fondo vaad hajinuj");
-	background:url("http://placehold.it/1920x600/1d3856/747669?text=fondo vaad hajinuj");
+	background-image:url(../images/fono-vaad-hajinuj.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size:contain;
 }
 .sin-fondo h1 {
 	color: #009ddc;
+	word-break:  break-word;
+	font-size:2.5em;
 }
 .sin-fondo header hr {
 	border-top: 1px solid  #009ddc;
@@ -207,8 +232,12 @@ footer {
 	font-size: 1.15em;
 	font-weight: 400;
 }
-.footer {
-
+.col-md-2 img {
+	max-width:100%;
+}
+.logo-vaad img {
+	width:100%;
+	max-width:150px;
 }
 /*  Input Reset */
 input[type="text"], input[type="email"], input[type="tel"], textarea{
@@ -217,12 +246,15 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	margin:5px 0;
 	color:#2f2f2f;
 	font-family: "Montserrat", sans-serif;
-	padding:5px 0 5px 15px;;
+	font-size: 0.8em;
+	padding:3px 0 3px 15px;
+	width: 100%;
 }
-input[type="submit"] {
+button[type="submit"] {
 	display: block;
     padding: 12px 35px;
     border: none;
+	border-radius: 2px;
     outline: none;
     cursor: pointer;
     background-color: #000;
@@ -234,6 +266,7 @@ input[type="submit"] {
     font-size: 13px;
     text-align: center;
     float: right;
+	margin-top: 5px;
 }
 input[type=submit]:hover, input[type=submit]:focus {
     background-color: #FFFFFF;
@@ -252,6 +285,49 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:#2f2f2f;
+}
+.modal-body {
+    padding: 0 15px;
+}
+.modal-content {
+    background-color: rgba(255, 255, 255, 1);
+	color: #505050;
+}
+.modal-footer {
+    border-top: none;
+}
+.modal-content p {
+	margin: 5px 0;
+}
+.modal input[type="text"], .modal input[type="email"], .modal input[type="tel"], .modal textarea {
+    background-color: transparent !important;
+    border: solid 1px #505050;
+    margin: 0 0 10px 0;
+    color: #2f2f2f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 0;
+    width: 100%;
+}
+.modal-dialog {
+    width: 400px !important;
+    margin: 30px auto;
+}
+.carousel-caption {
+    top: 350px;
+}
+.carousel-caption h3, .carousel-caption h4 {
+	font-weight:300;
+}
+.carousel-caption h3 {
+    font-weight:500;
+}
+img.logo_movamonos {
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;
+    left: 20%;
+    right: 20%;
+    top: 200px;
 }
 
 /* JQuery UI Reset */
@@ -272,7 +348,7 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 .ui-widget-content {
     border: none !important;
-    background: #fff;
+    background: #fff !important;
     color: #505050 !important;
 }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
@@ -287,7 +363,80 @@ input[type=submit]:hover, input[type=submit]:focus {
     font-weight: normal;
     color: #505050 !important;
 }
-@media (max-width:767px){
+.ui-widget-header {
+    border: none !important;
+    background: transparent !important;
+    color: #505050 !important;
+}
+.ui-widget {
+    font-family: inherit !important;
+    font-size: inherit !important;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    width: 75% !important;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    width: 25% !important;
+}
+.ui-tabs-vertical {
+    width: 100% !important;
+}
+.ui-state-hover {
+	color: #009ddc;
+}
+select {
+    background-color: transparent !Important;
+    border: solid 1px #fff;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+    color: #000;
+	font-size: 0.8em;
+}
+.ui-tabs h3 {
+	margin-top: 0px;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    padding:0.5em 1em 1em !important;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	color: #009ddc !important;
+}
+
+@media (max-width: 414px) {
+img.logo_movamonos {
+    top: 100px !important;
+}
+.carousel-caption {
+    top: 50px !important;
+}
+.carousel-caption h3{
+	font-size: 1.2em;
+}
+.carousel-caption h4{
+	font-size: 1em;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: none !important;
+    height: 300px !important;
+	opacity: 0.5;
+}
+img.logo_movamonos {
+    top: 200px;
+    width: 50% !important;
+
+}
+.carousel-fade .carousel-inner .item {
+     background: #000;
+}
+
+}
+@media (max-width:768px){
+	ul, ol {
+    padding-left: 0;
+}
 	.atid, .que-hemos-hecho, .kinus, .vaad {
 		background-size: initial;
 	}
@@ -295,11 +444,43 @@ input[type=submit]:hover, input[type=submit]:focus {
 	padding:2em 1em;
 	border-radius: 0.5em;
 }
+.boton {
+    padding: 8px 0 4px 0;
+}
+.carousel-caption {
+    top: 150px;
+    right: 10% !important;
+    left: 10% !important;
+    padding-bottom: 30px;
+}
+img.logo_movamonos {
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;
+    left: 20%;
+    right: 20%;
+    top: 200px;
+    width: 25%;
+    height: auto;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    width: 100% !important;
+	float: none !important;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    width: 100% !important;
+    float: none !important;
+}
 }
 
 @media (min-width:768px){
 	.contenido {
-	padding:3em 3em;
+	padding:1em 3em 3em;
 	border-radius: 0.5em;
+}
+.carousel-caption {
+    right: 30%;
+    left: 30%;
+    padding-bottom: 30px;
 }
 }
